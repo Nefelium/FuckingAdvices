@@ -1,0 +1,6 @@
+framework module Pods_FuckingAdvices {
+  umbrella header "Pods-FuckingAdvices-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lgr-9d-Cej">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kefa.ttf">
+            <string>Kefa-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--AdviceViewController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="AdviceViewController" id="BYZ-38-t0r" customClass="AdviceViewController" customModule="FuckingAdvices" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvr-Mb-OKO">
+                                <rect key="frame" x="16" y="146" width="343" height="30"/>
+                                <state key="normal" title="Добавить в избранное"/>
+                                <connections>
+                                    <action selector="AddToFavoritesButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HP3-sZ-jgO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ЖИЗНЕННЫЕ СОВЕТЫ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xaZ-MS-MfY">
+                                <rect key="frame" x="16" y="40" width="343" height="26"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                <color key="textColor" red="0.28125761207736932" green="0.29123818689496717" blue="0.29693448604060912" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdm-3s-Xy3">
+                                <rect key="frame" x="16" y="196" width="343" height="30"/>
+                                <state key="normal" title="Следующий совет"/>
+                                <connections>
+                                    <action selector="NextAdvice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="446-ZF-qzf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yw5-NU-O2x">
+                                <rect key="frame" x="16" y="86" width="343" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xaZ-MS-MfY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="1uU-Vp-s5z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xaZ-MS-MfY" secondAttribute="trailing" constant="16" id="2Re-ow-lDi"/>
+                            <constraint firstItem="Yw5-NU-O2x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3YM-5B-AK9"/>
+                            <constraint firstItem="nvr-Mb-OKO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5ub-d6-Tfr"/>
+                            <constraint firstItem="nvr-Mb-OKO" firstAttribute="top" secondItem="Yw5-NU-O2x" secondAttribute="bottom" constant="60" id="87h-d8-2kD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yw5-NU-O2x" secondAttribute="trailing" constant="16" id="BNX-43-QTC"/>
+                            <constraint firstItem="Wdm-3s-Xy3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="LLL-hC-n0t"/>
+                            <constraint firstItem="xaZ-MS-MfY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="UFr-Vl-YVY"/>
+                            <constraint firstItem="Yw5-NU-O2x" firstAttribute="top" secondItem="xaZ-MS-MfY" secondAttribute="bottom" constant="20" id="aqb-3z-Y64"/>
+                            <constraint firstItem="Wdm-3s-Xy3" firstAttribute="top" secondItem="nvr-Mb-OKO" secondAttribute="bottom" constant="20" id="cOz-A3-KIK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wdm-3s-Xy3" secondAttribute="trailing" constant="16" id="pHk-nv-VD1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nvr-Mb-OKO" secondAttribute="trailing" constant="16" id="sFE-rN-aSg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Advice" id="xe4-2d-cOw">
+                        <color key="badgeColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="AdviceLabel" destination="Yw5-NU-O2x" id="023-Oc-Nmz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1260" y="-18.440779610194905"/>
+        </scene>
+        <!--FavoritesViewController-->
+        <scene sceneID="630-7y-ocz">
+            <objects>
+                <viewController title="FavoritesViewController" id="FfA-9I-dtu" customClass="FavoritesViewController" customModule="FuckingAdvices" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8og-pE-qVs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="K6o-IH-Btu">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavoritesTableViewCell" id="DQR-gM-v9p" userLabel="FavoritesTableViewCell" customClass="FavoritesTableViewCell" customModule="FuckingAdvices" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DQR-gM-v9p" id="QZ1-Gi-rcb">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2D-hA-CME" userLabel="Advice Label">
+                                                    <rect key="frame" x="8" y="8" width="359" height="27.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="g2D-hA-CME" firstAttribute="leading" secondItem="QZ1-Gi-rcb" secondAttribute="leading" constant="8" id="EsD-MW-O7P"/>
+                                                <constraint firstAttribute="trailing" secondItem="g2D-hA-CME" secondAttribute="trailing" constant="8" id="IYy-LG-kKU"/>
+                                                <constraint firstItem="g2D-hA-CME" firstAttribute="top" secondItem="QZ1-Gi-rcb" secondAttribute="top" constant="8" id="fPk-eQ-abS"/>
+                                                <constraint firstAttribute="bottom" secondItem="g2D-hA-CME" secondAttribute="bottom" constant="8" id="sBi-MF-Nba"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="adviceLabel" destination="g2D-hA-CME" id="rqb-jX-irB"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="FfA-9I-dtu" id="Kd0-r4-qEd"/>
+                                    <outlet property="delegate" destination="FfA-9I-dtu" id="GDP-pq-Uv3"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PAM-HU-n96" firstAttribute="bottom" secondItem="K6o-IH-Btu" secondAttribute="bottom" id="GzH-Tc-FXk"/>
+                            <constraint firstItem="K6o-IH-Btu" firstAttribute="top" secondItem="PAM-HU-n96" secondAttribute="top" id="Yqn-6X-K7G"/>
+                            <constraint firstItem="K6o-IH-Btu" firstAttribute="leading" secondItem="PAM-HU-n96" secondAttribute="leading" id="jO3-1v-7O5"/>
+                            <constraint firstItem="PAM-HU-n96" firstAttribute="trailing" secondItem="K6o-IH-Btu" secondAttribute="trailing" id="ta7-4T-nft"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PAM-HU-n96"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="hlO-Je-R5m"/>
+                    <connections>
+                        <outlet property="tableView" destination="K6o-IH-Btu" id="8Ds-AI-lKb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a2e-Oa-1cU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1260" y="660.71964017991013"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="R2a-Ac-k75">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="lgr-9d-Cej" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6SJ-yI-vhb">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Fb2-am-dZ3"/>
+                        <segue destination="FfA-9I-dtu" kind="relationship" relationship="viewControllers" id="fQj-qp-O83"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ru-Sq-92l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="207" y="338"/>
+        </scene>
+    </scenes>
+</document>

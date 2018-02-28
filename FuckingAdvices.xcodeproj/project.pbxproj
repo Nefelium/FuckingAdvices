@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8411C4BD204686E60023CAE0 /* ReadWriteFavoritesAdvice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411C4BC204686E60023CAE0 /* ReadWriteFavoritesAdvice.swift */; };
+		84D59A6B2046CACC00B5B9C0 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D59A6A2046CACC00B5B9C0 /* FavoritesTableViewCell.swift */; };
+		84F35C332044647B00566DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F35C322044647B00566DB3 /* AppDelegate.swift */; };
+		84F35C382044647B00566DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F35C362044647B00566DB3 /* Main.storyboard */; };
+		84F35C3B2044647B00566DB3 /* FuckingAdvices.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84F35C392044647B00566DB3 /* FuckingAdvices.xcdatamodeld */; };
+		84F35C3D2044647B00566DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F35C3C2044647B00566DB3 /* Assets.xcassets */; };
+		84F35C402044647B00566DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F35C3E2044647B00566DB3 /* LaunchScreen.storyboard */; };
+		84F35C482044684C00566DB3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F35C472044684C00566DB3 /* FavoritesViewController.swift */; };
+		84F35C4A2044687C00566DB3 /* AdviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F35C492044687C00566DB3 /* AdviceViewController.swift */; };
+		84F35C4C2045123700566DB3 /* AdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F35C4B2045123700566DB3 /* AdviceModel.swift */; };
+		84F35C4E2045135C00566DB3 /* Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F35C4D2045135C00566DB3 /* Parsing.swift */; };
+		AAD8D5AEE42FAD859754CEBE /* Pods_FuckingAdvices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E25AA479C205014A2B568B /* Pods_FuckingAdvices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DC15A5338285CD718A11B07 /* Pods-FuckingAdvices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuckingAdvices.release.xcconfig"; path = "Pods/Target Support Files/Pods-FuckingAdvices/Pods-FuckingAdvices.release.xcconfig"; sourceTree = "<group>"; };
+		39E25AA479C205014A2B568B /* Pods_FuckingAdvices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuckingAdvices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC69D00725723E7175DF5A6 /* Pods-FuckingAdvices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuckingAdvices.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FuckingAdvices/Pods-FuckingAdvices.debug.xcconfig"; sourceTree = "<group>"; };
+		8411C4BC204686E60023CAE0 /* ReadWriteFavoritesAdvice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadWriteFavoritesAdvice.swift; sourceTree = "<group>"; };
+		84D59A6A2046CACC00B5B9C0 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		84F35C2F2044647B00566DB3 /* FuckingAdvices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuckingAdvices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F35C322044647B00566DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84F35C372044647B00566DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84F35C3A2044647B00566DB3 /* FuckingAdvices.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FuckingAdvices.xcdatamodel; sourceTree = "<group>"; };
+		84F35C3C2044647B00566DB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F35C3F2044647B00566DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84F35C412044647B00566DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F35C472044684C00566DB3 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		84F35C492044687C00566DB3 /* AdviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceViewController.swift; sourceTree = "<group>"; };
+		84F35C4B2045123700566DB3 /* AdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceModel.swift; sourceTree = "<group>"; };
+		84F35C4D2045135C00566DB3 /* Parsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsing.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F35C2C2044647B00566DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD8D5AEE42FAD859754CEBE /* Pods_FuckingAdvices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ED5C36A50A08CAD801223F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BC69D00725723E7175DF5A6 /* Pods-FuckingAdvices.debug.xcconfig */,
+				2DC15A5338285CD718A11B07 /* Pods-FuckingAdvices.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57A6A0355CD072B5E78FBD72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39E25AA479C205014A2B568B /* Pods_FuckingAdvices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D59A6C2046EB9F00B5B9C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84F35C4B2045123700566DB3 /* AdviceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84D59A6D2046EBBE00B5B9C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84F35C492044687C00566DB3 /* AdviceViewController.swift */,
+				84F35C472044684C00566DB3 /* FavoritesViewController.swift */,
+				84D59A6A2046CACC00B5B9C0 /* FavoritesTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84D59A6E2046EBC700B5B9C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84F35C4D2045135C00566DB3 /* Parsing.swift */,
+				8411C4BC204686E60023CAE0 /* ReadWriteFavoritesAdvice.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84F35C262044647B00566DB3 = {
+			isa = PBXGroup;
+			children = (
+				84F35C312044647B00566DB3 /* FuckingAdvices */,
+				84F35C302044647B00566DB3 /* Products */,
+				2ED5C36A50A08CAD801223F5 /* Pods */,
+				57A6A0355CD072B5E78FBD72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84F35C302044647B00566DB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F35C2F2044647B00566DB3 /* FuckingAdvices.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F35C312044647B00566DB3 /* FuckingAdvices */ = {
+			isa = PBXGroup;
+			children = (
+				84F35C322044647B00566DB3 /* AppDelegate.swift */,
+				84D59A6D2046EBBE00B5B9C0 /* View */,
+				84D59A6C2046EB9F00B5B9C0 /* Model */,
+				84D59A6E2046EBC700B5B9C0 /* Controller */,
+				84F35C362044647B00566DB3 /* Main.storyboard */,
+				84F35C3C2044647B00566DB3 /* Assets.xcassets */,
+				84F35C3E2044647B00566DB3 /* LaunchScreen.storyboard */,
+				84F35C412044647B00566DB3 /* Info.plist */,
+				84F35C392044647B00566DB3 /* FuckingAdvices.xcdatamodeld */,
+			);
+			path = FuckingAdvices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F35C2E2044647B00566DB3 /* FuckingAdvices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F35C442044647B00566DB3 /* Build configuration list for PBXNativeTarget "FuckingAdvices" */;
+			buildPhases = (
+				1264D78328A4D9216BF4EC69 /* [CP] Check Pods Manifest.lock */,
+				84F35C2B2044647B00566DB3 /* Sources */,
+				84F35C2C2044647B00566DB3 /* Frameworks */,
+				84F35C2D2044647B00566DB3 /* Resources */,
+				9F5F483C24CB2374DB4E123F /* [CP] Embed Pods Frameworks */,
+				D83067273AB8A7ECC327D572 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuckingAdvices;
+			productName = FuckingAdvices;
+			productReference = 84F35C2F2044647B00566DB3 /* FuckingAdvices.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F35C272044647B00566DB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84F35C2E2044647B00566DB3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84F35C2A2044647B00566DB3 /* Build configuration list for PBXProject "FuckingAdvices" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F35C262044647B00566DB3;
+			productRefGroup = 84F35C302044647B00566DB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F35C2E2044647B00566DB3 /* FuckingAdvices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F35C2D2044647B00566DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F35C402044647B00566DB3 /* LaunchScreen.storyboard in Resources */,
+				84F35C3D2044647B00566DB3 /* Assets.xcassets in Resources */,
+				84F35C382044647B00566DB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1264D78328A4D9216BF4EC69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FuckingAdvices-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F5F483C24CB2374DB4E123F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FuckingAdvices/Pods-FuckingAdvices-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuckingAdvices/Pods-FuckingAdvices-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83067273AB8A7ECC327D572 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuckingAdvices/Pods-FuckingAdvices-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F35C2B2044647B00566DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F35C3B2044647B00566DB3 /* FuckingAdvices.xcdatamodeld in Sources */,
+				84F35C482044684C00566DB3 /* FavoritesViewController.swift in Sources */,
+				8411C4BD204686E60023CAE0 /* ReadWriteFavoritesAdvice.swift in Sources */,
+				84F35C4A2044687C00566DB3 /* AdviceViewController.swift in Sources */,
+				84F35C4C2045123700566DB3 /* AdviceModel.swift in Sources */,
+				84D59A6B2046CACC00B5B9C0 /* FavoritesTableViewCell.swift in Sources */,
+				84F35C4E2045135C00566DB3 /* Parsing.swift in Sources */,
+				84F35C332044647B00566DB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84F35C362044647B00566DB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F35C372044647B00566DB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84F35C3E2044647B00566DB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F35C3F2044647B00566DB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F35C422044647B00566DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84F35C432044647B00566DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84F35C452044647B00566DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC69D00725723E7175DF5A6 /* Pods-FuckingAdvices.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ASULEAFDR;
+				INFOPLIST_FILE = FuckingAdvices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qwe.FuckingAdvices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84F35C462044647B00566DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC15A5338285CD718A11B07 /* Pods-FuckingAdvices.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ASULEAFDR;
+				INFOPLIST_FILE = FuckingAdvices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qwe.FuckingAdvices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F35C2A2044647B00566DB3 /* Build configuration list for PBXProject "FuckingAdvices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F35C422044647B00566DB3 /* Debug */,
+				84F35C432044647B00566DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F35C442044647B00566DB3 /* Build configuration list for PBXNativeTarget "FuckingAdvices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F35C452044647B00566DB3 /* Debug */,
+				84F35C462044647B00566DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84F35C392044647B00566DB3 /* FuckingAdvices.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84F35C3A2044647B00566DB3 /* FuckingAdvices.xcdatamodel */,
+			);
+			currentVersion = 84F35C3A2044647B00566DB3 /* FuckingAdvices.xcdatamodel */;
+			path = FuckingAdvices.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84F35C272044647B00566DB3 /* Project object */;
+}
